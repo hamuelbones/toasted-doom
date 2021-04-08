@@ -253,7 +253,7 @@ default_t	defaults[] =
     {"key_speed",&key_speed, KEY_RSHIFT},
 
 // UNIX hack, to be removed. 
-#ifdef SNDSERV
+#if SNDSERV
     {"sndserver", (int *) &sndserver_filename, (int) "sndserver"},
     {"mb_used", &mb_used, 2},
 #endif
