@@ -651,7 +651,8 @@ S_ChangeMusic
 ( int			musicnum,
   int			looping )
 {
-    musicinfo_t*	music;
+    // Sam: init music variable
+    musicinfo_t*	music = NULL;
     char		namebuf[9];
 
     if ( (musicnum <= mus_None)

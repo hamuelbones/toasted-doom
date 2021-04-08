@@ -52,6 +52,8 @@ rcsid[] = "$Id: m_bbox.c,v 1.1 1997/02/03 22:45:10 b1 Exp $";
 
 
 // For some odd reason...
+// Sam: don't need these defs
+#if 0
 #define ntohl(x) \
         ((unsigned long int)((((unsigned long int)(x) & 0x000000ffU) << 24) | \
                              (((unsigned long int)(x) & 0x0000ff00U) <<  8) | \
@@ -64,6 +66,7 @@ rcsid[] = "$Id: m_bbox.c,v 1.1 1997/02/03 22:45:10 b1 Exp $";
 	  
 #define htonl(x) ntohl(x)
 #define htons(x) ntohs(x)
+#endif
 
 void	NetSend (void);
 boolean NetListen (void);
