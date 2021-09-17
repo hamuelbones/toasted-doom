@@ -8,7 +8,7 @@ Global and misc. stuff
 -----------------------------------------------------------------------
 doomdata.h   -  external data definitions (WAD file structure)
 doomdef.h    -  internal data definitions (game structs)
-dstrings.h   -  printed strings for translation, english 
+d_englsh.h   -  printed strings for translation, english
 d_french.h   -  printed strings for translation
 
 info.h
